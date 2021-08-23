@@ -1,5 +1,6 @@
 package sort
 
+// QuickSort implements a quick sort algorithms.
 func QuickSort(nums []int, l, r int) {
 	if l >= r {
 		return

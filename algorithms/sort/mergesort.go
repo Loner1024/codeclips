@@ -1,5 +1,7 @@
+// Package sort implements some classic sort algorithms.
 package sort
 
+// MergeSort implements a merge sort algorithm.
 func MergeSort(nums []int, l, r int) {
 	if l >= r {
 		return
@@ -32,5 +34,3 @@ func MergeSort(nums []int, l, r int) {
 		j++
 	}
 }
-
-
